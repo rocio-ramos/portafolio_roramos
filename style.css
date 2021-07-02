@@ -1,0 +1,516 @@
+/* Barra navegación */
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1a1a1a;
+  text-decoration: none;
+}
+
+ul ul {
+   position: absolute;
+   display: none;
+}
+ul ul li {
+   display: block;
+}
+ul li:hover ul {
+   display:block;
+}
+
+
+li {
+  float: left;
+  text-decoration: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+li a:hover {
+  background-color: #A182CD;
+  color: #F5FF00;
+  text-decoration:;
+}
+
+/* Index */
+
+
+h1 {
+	color: #FFF
+}
+
+.titulo {
+  text-align: left;
+	padding-bottom: 30px;
+	font-size: 50px;
+}
+
+.texto-intro{
+color: #FFF
+}
+
+.intro {
+ position: absolute;
+ left: 70px;
+  top: 200px;
+  text-decoration: none;
+
+}
+
+.imagen-index{
+  height: 180%;
+  position: absolute;  
+  bottom: 0;
+  top: 0px;
+  left: 600px;
+  margin-top: 20px;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: justify;
+}
+
+/* Contacto */
+
+.fotofondo {
+background: rgb(213,211,255);
+background: linear-gradient(0deg, rgba(213,211,255,1) 0%, rgba(243,232,255,1) 100%);
+}
+
+/* Portafolio */
+
+
+.fondo-portafolio{
+background: rgb(213,211,255);
+background: linear-gradient(0deg, rgba(213,211,255,1) 0%, rgba(243,232,255,1) 100%);
+}
+
+.padre-flex {
+  margin-top: 20px;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: justify;
+
+
+}
+
+.padre-flex > div {
+  background: none;
+  margin: 40px;
+  padding: 10px;
+  font size: 10px;
+  width: 220px;
+  border-radius: 50%;
+  text-align: center;
+
+}
+
+.texto-portafolio {
+  position: absolute;
+  padding-top: 200px;
+  padding-left: 0px;
+}
+
+.transicion {
+  color: #FFF;
+  font-size: 1rem;
+  padding-top: 
+}
+
+.transicion:hover {
+  transition: 1s;
+  font-size: 1.5rem;
+}
+
+/* Blog */
+
+.fondoblog {
+background: rgb(213,211,255);
+background: linear-gradient(0deg, rgba(213,211,255,1) 0%, rgba(243,232,255,1) 100%);
+}
+
+.contenedor { 
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contenedor__cards {
+    margin: 70px 0;
+}
+
+.card {
+    background: #D5D3FF;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.card__thumbnail {
+    width: 650px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.card__img {
+    width: 100%;
+}
+
+.card__titulo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.card__enlace {
+    color: linear-gradient (45deg, #DCE500, #c15fff);
+}
+
+.card__extracto {
+    line-height: 28px;
+    color: #D5D3FF;
+    margin-bottom: 20px;
+}
+
+.boton {
+    border: none;
+    min-width: 180px;
+    height: 50px;
+    padding: 0 30px;
+    background: #dce500;
+    color: #fff;
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s ease all;
+}
+
+.boton__texto {
+    font-weight: 600;
+}
+
+.boton:hover {
+    background: #D5D3FF;
+    text-decoration: none;
+}
+
+.boton--absolute {
+    position: absolute;
+    right: 20px;
+    bottom: -25px;
+}
+
+
+.frase {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.frase__texto {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #D5D3FF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contenedor { 
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contenedor__cards {
+    margin: 70px 0;
+}
+
+.card {
+    background: #FFF;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.card__thumbnail {
+    width: 650px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.card__img {
+    width: 100%;
+}
+
+.card__titulo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.card__enlace {
+    color: #000;
+}
+
+.card__extracto {
+    line-height: 28px;
+    color: #6D6D6D;
+    margin-bottom: 20px;
+}
+
+/* CV */
+
+#grilla {
+    padding-top: 3%;
+    display: grid;
+    grid-template-areas: 
+    "nav experiencia"
+    "nav educacion"
+    "nav habilidades";
+    grid-template-rows: 150px 150px 200px;
+    grid-template-columns: 20% auto 15%;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    height: 100vh;
+    margin: 0;
+}
+
+.border {
+    background: none;
+}
+
+section#experiencia {
+    grid-area: experiencia;
+}
+
+section#educacion {
+    grid-area: educacion;
+}
+
+section#habilidades {
+    grid-area: habilidades;
+}
+
+h1 {
+    text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.cv{
+  display: grid;
+  height: 100%;
+  background: rgb(213,211,255);
+  background: linear-gradient(0deg, rgba(213,211,255,1) 0%, rgba(243,232,255,1) 100%);
+}
+
+#educacion {
+  position: absolute;
+  padding-left: 200px;
+}
+
+.caja-educacion{
+  padding: 25px 30px;
+  width: 560px;
+  height: 655px;
+  background: #fff;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+#experiencia {
+  position: absolute;
+  padding-left: 800px;
+}
+
+
+.caja-experiencia{
+  padding: 25px 30px;
+  width: 600px;
+  height: 250px;
+  background: #fff;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+#habilidades {
+  position: absolute;
+  padding-left: 800px;
+  padding-top: 300px;
+  }
+
+::selection{
+  color: #fff;
+  background: #6665ee;
+}
+.skill-bars{
+  padding: 25px 30px;
+  width: 600px;
+  background: #fff;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+.skill-bars .bar{
+  margin: 20px 0;
+}
+.skill-bars .bar:first-child{
+  margin-top: 0px;
+}
+.skill-bars .bar .info{
+  margin-bottom: 5px;
+}
+.skill-bars .bar .info span{
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+  100%{
+    opacity: 1;
+  }
+}
+.skill-bars .bar .progress-line{
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+              0 1px rgba(255,255,255,0.8);
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.bar .progress-line span{
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #6665ee;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .progress-line.photoshop span{
+  width: 90%;
+}
+.bar .progress-line.illustrator span{
+  width: 80%;
+}
+.bar .progress-line.aftereffects span{
+  width: 60%;
+}
+.bar .progress-line.indesign span{
+  width: 70%;
+}
+.bar .progress-line.html span{
+  width: 40%;
+}
+.progress-line span::before{
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line span::after{
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+}
+.progress-line.photoshop span::after{
+  content: "90%";
+}
+.progress-line.illustrator span::after{
+  content: "80%";
+}
+.progress-line.aftereffects span::after{
+  content: "60%";
+}
+.progress-line.indesign span::after{
+  content: "70%";
+}
+.progress-line.html span::after{
+  content: "40%";
+}
+
